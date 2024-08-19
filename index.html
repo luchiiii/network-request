@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather App</h1>
+        
+        <!-- User-friendly instructions -->
+        <p>Enter the name of a city below and click "Get Weather" to see the current weather details for that location.</p>
+        
+        <!-- Input for location with label -->
+        <div class="location-input">
+            <label for="locationInput">City Name:</label>
+            <input type="text" id="locationInput" placeholder="e.g., Lagos, New York, Tokyo" />
+        </div>
+        
+        <!-- Weather info section -->
+        <div class="weather-info">
+            <h2 id="location">Location: --</h2>
+            <p id="temperature">Temperature: -- °C</p>
+            <p id="description">Description: --</p>
+        </div>
+        
+        <!-- Button to fetch weather -->
+        <button id="fetchWeather">Get Weather</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
